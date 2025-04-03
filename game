@@ -1,0 +1,15 @@
+Let's make a game!
+  name:Cake Clicker
+  by:ChoccySpred
+  desc:A clicker game inspired by <i>Cookie Clicker</i> created using Orteil's <i>Idle Game Maker Engine</i>.
+  created:03/04/2025
+  updated;N/A
+  version:1.0
+Settings
+  building cost increase:120%
+  building cost refund:67.5%
+Layout
+  use default
+  *achievements
+    in:main 
+    contains:Achievements
