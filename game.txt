@@ -1,7 +1,7 @@
 Let's make a game!
   name:Cake Clicker
   by:ChoccySpred
-  desc:A clicker game inspired by <i>Cookie Clicker</i> created using Orteil's <i>Idle Game Maker Engine</i>.
+  desc:A clicker game inspired by <i>Cookie Clicker</i>, created using Orteil's <i>Idle Game Maker Engine</i>.
   created:03/04/2025
   updated;N/A
   version:1.0
@@ -54,3 +54,18 @@ Buildings
     name:Icing
     desc:There's no good cake without icing.<//><b>Effect:</b> Produces 1 cake per 5 seconds.
     icon:favicons/buil-icing.jpg
+    on tick:yield 0.2 cakes
+    cost:20 cakes
+
+Buttons
+  *cakeButton
+    name:Bake a cake
+    desc:Upon clicking this cake you bake cakes. Don't ask how.
+    on click:anim icon wobble
+    on click:yield 1 cake
+    icon:favicons/curr-cake-reg.jpg
+    no text
+    class:bigButton hasFlares
+    icon class:shadowed
+    tooltip origin:bottom
+    tooltip class:red
