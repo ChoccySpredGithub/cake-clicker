@@ -5,9 +5,11 @@ Let's make a game!
   created:03/04/2025
   updated;N/A
   version:1.0
+
 Settings
   building cost increase:120%
   building cost refund:67.5%
+
 Layout
   use default
   /*
@@ -33,10 +35,22 @@ Layout
   *achievements
     in:main 
     contains:Achievements
+
+Resources
+  *cake|cakes
+    name:Cake|Cakes
+    desc:The main currency of the game. Use there to buy buildings and upgrades.
+    icon:favicons/curr-cake-reg.jpg
+    class:noBackground
+    show earned
+  *goldenCake|goldenCakes
+    name:Golden Cake|Golden Cakes
+    desc:A golden and more valuable version of regular cakes! They may not look that appetising, but they can be used for special upgrades.
+    
 Buildings
   *TEMPLATE
     on click:anim glow
   *icing
     name:Icing
     desc:There's no good cake without icing.<//><b>Effect:</b> Produces 1 cake per 5 seconds.
-    icon:
+    icon:favicons/buil-icing.jpg
